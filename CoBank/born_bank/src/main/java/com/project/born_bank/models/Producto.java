@@ -16,11 +16,8 @@ import lombok.Setter;
 @Setter
 public class Producto extends ModeloMatriz{
 
-    private String ahorro;
-    private String debito;
-    private String credito;
-    private String afp;
-    private String plazoFijo;
-    
+    private String plazo;
+    private String tipo;
+    private Boolean retiro;
 }
  
